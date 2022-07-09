@@ -1,0 +1,45 @@
+.pointer {
+    cursor: pointer;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.btn-main {
+    padding: 1rem 2.5rem;
+    background: #03435C;
+    color: #fff;
+    font-weight: 300;
+}
+
+.btn-foreign {
+    padding: 1rem 2.5rem;
+    background: #BF946A;
+    color: #fff;
+    font-weight: 300;
+}
+
+.mt-025 {
+    margin-top: .25rem;
+}
+
+.mt-05 {
+    margin-top: .5rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
