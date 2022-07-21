@@ -8,7 +8,7 @@ body {
 
 .root {
     position: relative;
-    height: 721px;
+    min-height: 100vh
 }
 
 .bg-color-fk {
@@ -72,7 +72,6 @@ body {
 
 .section-marketing-banner {
     width: 45%;
-    height: 400px;
     margin-top: 4rem;
     margin-left: 4rem;
 }
@@ -92,7 +91,14 @@ body {
     font-weight: 300;
 }
 
+/* .icon-marketing-banner {
+    width: 75px;
+    height: 75px;
+} */
+
 .icon-marketing-banner img {
+    /* width: 100%;
+    height: auto; */
     width: 75px;
 }
 
@@ -101,7 +107,25 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
+    .bg-product-circle {
+        top: 8rem;
+        width: 400px;
+        height: 400px;
+    }
 
+    .section-content-banner .text-ombee {
+        font-size: 100px;
+    }
+
+    .section-content-banner .text-ombee-body {
+        width: 45%;
+        font-size: 16px;
+    }
+
+    .section-marketing-banner {
+        width: 60%;
+        margin-top: 6rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
